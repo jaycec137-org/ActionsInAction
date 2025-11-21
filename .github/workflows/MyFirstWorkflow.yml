@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 jobs:
   MyFirstJob:
-    runs-on: ubutu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Hello World"
       - name: Checkout
